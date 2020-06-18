@@ -1,0 +1,54 @@
+.cont {
+    padding: .5em;
+}
+
+hr {
+    border-color: var(--color-background-main-car);
+}
+
+.register-special-header {
+    font-size: 1.5em;
+}
+
+.register-special-body {
+    height: 30vh;
+    overflow: auto;
+    font-size: .8em;
+    text-align: justify;
+}
+
+.ico-general {
+    color: var(--color-background-main-car);
+}
+
+.register-special-body::-webkit-scrollbar {
+    width: 3px;
+    /* Tamaño del scroll en vertical */
+    height: 3px;
+    /* Tamaño del scroll en horizontal */
+    /* display: auto; */
+    /* Ocultar scroll */
+}
+
+.register-special-body::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+.register-special-body::-webkit-scrollbar-thumb:hover {
+    background: var(--main-color);
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.register-special-body::-webkit-scrollbar-thumb:active {
+    background-color: var(--main-color);
+}
+
+.register-special-body::-webkit-scrollbar-track {
+    background: var(--color-background-main-card);
+    border-radius: 1px;
+}
+
+.register-special-body::-webkit-scrollbar-track:hover, .register-special-body::-webkit-scrollbar-track:active {
+    background: #d4d4d4;
+}

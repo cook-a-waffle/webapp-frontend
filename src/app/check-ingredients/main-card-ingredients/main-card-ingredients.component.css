@@ -1,0 +1,19 @@
+@import '../../dashboard/main-card/main-card.component';
+.card-static{
+    background-color: var(--main-color);
+}
+
+@keyframes sweepup {
+    form {
+        height: 0vh;
+    }
+    to {
+        height: 75vh;
+    }
+}
+
+.card-static-body {
+    height: 53%;
+    overflow: hidden;
+    margin: .5em;
+}

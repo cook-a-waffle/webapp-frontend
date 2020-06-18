@@ -1,0 +1,14 @@
+.badge {
+    padding: .4em;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.badge-desert {
+    background-color: var(--color-background-badge-desert);
+}
+
+.badge-diner {
+    background-color: var(--color-background-badge-desert);
+}

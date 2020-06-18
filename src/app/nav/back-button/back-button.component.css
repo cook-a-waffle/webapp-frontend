@@ -1,0 +1,10 @@
+.back-button {
+    cursor: pointer;
+    border-radius: 5px;
+    padding: .5em 1em;
+    background-color: var(--main-color);
+}
+
+.back-button:hover {
+    opacity: .8;
+}

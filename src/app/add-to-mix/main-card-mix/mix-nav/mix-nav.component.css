@@ -1,0 +1,11 @@
+.circle-mix-nav{
+    background-color: var(--color-ico-general);
+    height: 1em;
+    width: 1em;
+    margin: .2em;
+    border-radius: 50%;
+}
+
+.circle-mix-nav:hover{
+    background-color: var(--main-color);
+}

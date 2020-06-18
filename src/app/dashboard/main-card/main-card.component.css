@@ -1,0 +1,27 @@
+.card-static {
+    position: fixed;
+    bottom: 0;
+    height: 0vh;
+    width: 100vw;
+    background-color: var(--color-background-main-card);
+    border-radius: 50px 50px 0 0;
+    padding: .2em;
+    animation-name: sweepup;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes sweepup {
+    form {
+        height: 0vh;
+    }
+    to {
+        height: 70vh;
+    }
+}
+
+.card-static-body {
+    overflow: auto;
+    margin: 1em;
+    height: 90%;
+}

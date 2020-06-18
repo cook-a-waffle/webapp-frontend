@@ -1,0 +1,64 @@
+.card-static-white {
+    position: fixed;
+    bottom: 0;
+    height: 0vh;
+    width: 100vw;
+    background-color: var(--color-background-main-card);
+    border-radius: 50px 50px 0 0;
+    padding: .2em;
+    animation-name: sweepup2;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes sweepup2 {
+    form {
+        height: 0vh;
+    }
+    to {
+        height: 35vh;
+    }
+}
+
+.card-static-body {
+    overflow: hidden;
+    margin: 1em;
+    height: 90%;
+}
+
+.card-static-body h5 {
+    color: var(--color-font-skill-card-title);
+}
+
+.add-ingredient, .choose-recipe {
+    height: calc(35vh/4);
+    padding: .2em;
+}
+
+.add-ingredient {
+    font-size: 1.4em;
+    color: var(--color-font-skill-card-title);
+}
+
+.add-ingedients-content {
+    border: solid 1px var(--color-font-skill-card-info);
+    border-radius: 10px;
+}
+
+.add-ingedients-content:hover{
+    background-color: var(--color-skill-card-active);
+}
+
+/* --color-background: #202020;
+--general-font: #fff;
+--main-color: #FD4F6B;
+--color-background-main-card: #fff;
+--color-skill-card-active: #F4F6FF;
+--color-font-skill-card-title: #000;
+--color-font-skill-card-info: #ABABAB;
+--color-background-badge-desert: #FFCE26;
+--color-background-badge-dinner: #54DBFF;
+--color-ico-general: #C7C7CC;
+--inactive-font: #C9CBCE;
+--color-font-template-title: #404B63;
+--color-font-template-info: #B8C0C9; */

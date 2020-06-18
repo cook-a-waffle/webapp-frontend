@@ -1,1 +1,97 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+    --color-background: #202020;
+    --general-font: #fff;
+    --main-color: #FD4F6B;
+    --color-background-main-card: #fff;
+    --color-skill-card-active: #F4F6FF;
+    --color-font-skill-card-title: #000;
+    --color-font-skill-card-info: #ABABAB;
+    --color-background-badge-desert: #FFCE26;
+    --color-background-badge-dinner: #54DBFF;
+    --color-ico-general: #C7C7CC;
+    --inactive-font: #C9CBCE;
+    --color-font-template-title: #404B63;
+    --color-font-template-info: #B8C0C9;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--general-font);
+}
+
+.card-static-body::-webkit-scrollbar {
+    width: 4px;
+    /* Tamaño del scroll en vertical */
+    height: 4px;
+    /* Tamaño del scroll en horizontal */
+    display: auto;
+    /* Ocultar scroll */
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+
+.card-static-body::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+
+.card-static-body::-webkit-scrollbar-thumb:hover {
+    background: var(--main-color);
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Cambiamos el fondo cuando esté en active */
+
+.card-static-body::-webkit-scrollbar-thumb:active {
+    background-color: var(--main-color);
+}
+
+.card-static-body::-webkit-scrollbar-track {
+    background: var(--color-background-main-card);
+    border-radius: 4px;
+}
+
+/* Cambiamos el fondo cuando esté en active o hover */
+
+.card-static-body::-webkit-scrollbar-track:hover, .card-static-body::-webkit-scrollbar-track:active {
+    background: #d4d4d4;
+}
+
+.ico-general {
+    color: var(--color-ico-general);
+}
+
+.ico-active {
+    color: var(--main-color);
+}
+
+.ico-white {
+    color: var(--general-font);
+}
+
+.non-selectable {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.button-content {
+    margin: 0;
+    font-size: 2em;
+    padding: 0;
+}
+
+.btn-main {
+    background-color: var(--main-color);
+    color: var(--general-font);
+    border-radius: 30px;
+}
+
+.btn-main:hover {
+    opacity: .8;
+}

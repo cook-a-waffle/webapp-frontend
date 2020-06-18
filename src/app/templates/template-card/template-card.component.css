@@ -1,0 +1,49 @@
+.card-template {
+    border-color: white;
+    border-radius: 20px;
+    margin: .5em;
+}
+
+.card-template:hover {
+    background-color: var(--color-skill-card-active);
+}
+
+.card-body{
+    padding: .5rem;
+}
+/* .template-button {
+    font-size: 1em;
+    width: 1.4em;
+    text-align: center;
+    border-radius: 5px;
+    background-color: var(--color-background-badge-dinner);
+    padding-left: .05em;
+    margin-bottom: .02em;
+} */
+
+.template-button {
+    font-size: 2.2em;
+    width: 1.5em;
+    text-align: center;
+    border-radius: 10px;
+    background-color: var(--color-background-badge-dinner);
+    padding-left: .1em;
+    margin-bottom: .2em;
+}
+
+.card-template-title {
+    color: var(--color-font-template-title);
+}
+
+.card-template-info {
+    font-size: .8em;
+    color: var(--color-font-template-info);
+}
+
+.ico-heart{
+    color: var(--color-ico-general);
+}
+
+.ico-heart:hover{
+    color: var(--main-color);
+}

@@ -1,0 +1,20 @@
+@import '../../dashboard/main-card/main-card.component';
+.mix-body {
+    font-size: .8em;
+    color: var(--color-font-skill-card-info);
+    height: 20vh;
+}
+
+.mix-title {
+    color: var(--color-font-skill-card-title);
+}
+
+.form-container {
+    font-size: .8em;
+    color: var(--color-font-skill-card-info);
+}
+
+.form-control{
+    background-color: var(--color-ico-general);
+    border-radius: 20px;
+}

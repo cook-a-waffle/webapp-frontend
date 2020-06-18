@@ -1,0 +1,17 @@
+<div class="card-static-white">
+    <div class="card-static-body">
+        <h5>Ingredients</h5>
+        <app-ingredients-nav></app-ingredients-nav>
+        <div class="add-ingredient d-flex flex-row justify-content-center align-content-center non-selectable">
+            <div class="add-ingedients-content d-flex justify-content-center align-items-center col-12 col-sm-12 col-md-6">
+                <fa-icon [icon]="faPlusCircle" class="ico-general col-2"></fa-icon>
+                <span>Add ingredients</span>
+            </div>
+        </div>
+        <div class="choose-recipe d-flex flex-row justify-content-center col-12">
+            <div class="button-content d-flex justify-content-center col-12 col-sm-12 col-md-6 align-content-center">
+                <button class="btn btn-main col-10 col-sm-10 col-md-8" [routerLink]="['/addMix']">Choose this recipie</button>
+            </div>
+        </div>
+    </div>
+</div>

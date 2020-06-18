@@ -1,0 +1,8 @@
+.bottom-button {
+    background-color: var(--color-background-main-card);
+    position: fixed;
+    height: 7vh;
+    width: 100vw;
+    bottom: 0;
+    z-index: 10;
+}

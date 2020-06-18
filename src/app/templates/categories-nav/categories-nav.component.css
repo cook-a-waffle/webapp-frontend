@@ -1,0 +1,47 @@
+.categories-nav {
+    overflow: auto;
+    color: var(--inactive-font);
+}
+
+.categories-nav span {
+    font-size: .95em;
+    white-space: nowrap;
+    padding: .3em .5em;
+}
+
+.categories-nav span:hover {
+    font-weight: 500;
+    color: var(--color-font-skill-card-title);
+}
+
+.categories-nav::-webkit-scrollbar {
+    width: 3px;
+    /* Tamaño del scroll en vertical */
+    height: 3px;
+    /* Tamaño del scroll en horizontal */
+    /* display: auto; */
+    /* Ocultar scroll */
+}
+
+.categories-nav::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+.categories-nav::-webkit-scrollbar-thumb:hover {
+    background: var(--main-color);
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.categories-nav::-webkit-scrollbar-thumb:active {
+    background-color: var(--main-color);
+}
+
+.categories-nav::-webkit-scrollbar-track {
+    background: var(--color-background-main-card);
+    border-radius: 1px;
+}
+
+.categories-nav::-webkit-scrollbar-track:hover, .categories-nav::-webkit-scrollbar-track:active {
+    background: #d4d4d4;
+}
