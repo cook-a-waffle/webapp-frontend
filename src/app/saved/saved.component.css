@@ -1,0 +1,40 @@
+.conteiner-saved {
+    height: 90vh;
+}
+
+.name-element {
+    opacity: 0;
+    animation-name: text-appear;
+    animation-timing-function: ease-out;
+    animation-delay: 2s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes text-appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.btn-main {
+    opacity: 0;
+    font-size: 1.5em;
+    animation-name: button-appear;
+    animation-timing-function: ease-out;
+    animation-delay: 6s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes button-appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

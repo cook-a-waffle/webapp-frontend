@@ -1,1 +1,4 @@
 @import '../../dashboard/main-card/main-card.component';
+.card-static-body{
+    height: 52vh;
+}

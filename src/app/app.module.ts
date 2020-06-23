@@ -27,14 +27,30 @@ import { AddToMixComponent } from './add-to-mix/add-to-mix.component';
 import { MainCardMixComponent } from './add-to-mix/main-card-mix/main-card-mix.component';
 import { MixNavComponent } from './add-to-mix/main-card-mix/mix-nav/mix-nav.component';
 import { MixBottomButtonComponent } from './add-to-mix/mix-bottom-button/mix-bottom-button.component';
+import { AddToMixDosComponent } from './add-to-mix-dos/add-to-mix-dos.component';
+import { MainCardMixDosComponent } from './add-to-mix-dos/main-card-mix-dos/main-card-mix-dos.component';
+import { MixBottomButtonDosComponent } from './add-to-mix-dos/mix-bottom-button-dos/mix-bottom-button-dos.component';
+import { AddToMixTresComponent } from './add-to-mix-tres/add-to-mix-tres.component';
+import { SavedComponent } from './saved/saved.component';
+import { MainCardMixTresComponent } from './add-to-mix-tres/main-card-mix-tres/main-card-mix-tres.component';
+import { MixBottomButtonTresComponent } from './add-to-mix-tres/mix-bottom-button-tres/mix-bottom-button-tres.component';
+import { CookItComponent } from './cook-it/cook-it.component';
+import { MainCardCookItComponent } from './cook-it/main-card-cook-it/main-card-cook-it.component';
+import { MainCardCookItDarkComponent } from './cook-it/main-card-cook-it-dark/main-card-cook-it-dark.component';
+import { CookItBottomButtonComponent } from './cook-it/main-card-cook-it-dark/cook-it-bottom-button/cook-it-bottom-button.component';
 
 
 const appRoutes: Routes = [
   { path: '', component: DashboardComponent },
   { path: 'templates', component: TemplatesComponent },
   { path: 'ingredients', component: CheckIngredientsComponent },
-  { path: 'addMix', component: AddToMixComponent }
+  { path: 'addMix', component: AddToMixComponent },
+  { path: 'addMixDos', component: AddToMixDosComponent },
+  { path: 'addMixTres', component: AddToMixTresComponent },
+  { path: 'cookIt', component: CookItComponent },
+  { path: 'saved', component: SavedComponent }
 ];
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -60,7 +76,18 @@ const appRoutes: Routes = [
     AddToMixComponent,
     MainCardMixComponent,
     MixNavComponent,
-    MixBottomButtonComponent
+    MixBottomButtonComponent,
+    AddToMixDosComponent,
+    MainCardMixDosComponent,
+    MixBottomButtonDosComponent,
+    AddToMixTresComponent,
+    SavedComponent,
+    MainCardMixTresComponent,
+    MixBottomButtonTresComponent,
+    CookItComponent,
+    MainCardCookItComponent,
+    MainCardCookItDarkComponent,
+    CookItBottomButtonComponent
   ],
   imports: [
     BrowserModule,

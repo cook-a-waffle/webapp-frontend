@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { faMortarPestle } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
-  selector: 'app-mix-bottom-button',
-  templateUrl: './mix-bottom-button.component.html',
-  styleUrls: ['./mix-bottom-button.component.css']
+  selector: 'app-mix-bottom-button-dos',
+  templateUrl: './mix-bottom-button-dos.component.html',
+  styleUrls: ['./mix-bottom-button-dos.component.css']
 })
-export class MixBottomButtonComponent implements OnInit {
+export class MixBottomButtonDosComponent implements OnInit {
 
   constructor() { }
   faMortarPestle = faMortarPestle;

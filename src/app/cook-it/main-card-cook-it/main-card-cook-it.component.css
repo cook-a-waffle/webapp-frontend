@@ -1,0 +1,23 @@
+@import '../../dashboard/main-card/main-card.component';
+.form-container {
+    font-size: .8em;
+    color: var(--color-font-skill-card-info);
+}
+
+.form-control {
+    background-color: var(--color-background-main-card);
+    border-radius: 20px;
+}
+
+#title{
+    font-size: 1.8em;
+}
+
+@keyframes sweepup {
+    from {
+        height: 0vh;
+    }
+    to {
+        height: 72.5vh;
+    }
+}

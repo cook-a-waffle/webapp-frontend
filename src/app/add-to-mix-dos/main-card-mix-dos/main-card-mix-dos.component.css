@@ -1,0 +1,56 @@
+@import '../../add-to-mix/main-card-mix/main-card-mix.component';
+.mix-body {
+    height: 10vh;
+}
+
+.form-container {
+    overflow: auto;
+    height: 30vh;
+}
+
+.add-element {
+    height: 8vh;
+    font-size: 1.4em;
+    color: var(--color-font-skill-card-title);
+}
+
+.add-element-content {
+    border: solid 1px var(--color-font-skill-card-info);
+    border-radius: 10px;
+}
+
+.add-element-content:hover {
+    background-color: var(--color-skill-card-active);
+}
+
+.form-container::-webkit-scrollbar {
+    width: 3px;
+    /* Tamaño del scroll en vertical */
+    height: 3px;
+    /* Tamaño del scroll en horizontal */
+    /* display: auto; */
+    /* Ocultar scroll */
+}
+
+.form-container::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+.form-container::-webkit-scrollbar-thumb:hover {
+    background: var(--main-color);
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.form-container::-webkit-scrollbar-thumb:active {
+    background-color: var(--main-color);
+}
+
+.form-container::-webkit-scrollbar-track {
+    background: var(--color-background-main-card);
+    border-radius: 1px;
+}
+
+.form-container::-webkit-scrollbar-track:hover, .form-container::-webkit-scrollbar-track:active {
+    background: #d4d4d4;
+}

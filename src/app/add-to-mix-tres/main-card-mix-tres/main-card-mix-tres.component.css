@@ -1,0 +1,113 @@
+@import '../../dashboard/main-card/main-card.component';
+.mix-body {
+    font-size: .8em;
+    color: var(--color-font-skill-card-info);
+    height: 10vh;
+}
+
+.mix-title {
+    color: var(--color-font-skill-card-title);
+}
+
+.media-container {
+    padding: 0;
+    height: 40vh;
+}
+
+.view {
+    height: 100%;
+}
+
+.view-img {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 60vw;
+    background-image: url('/assets/firework.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.background-cover{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.view-photo, .galery {
+    padding: 0;
+    margin: 0;
+    height: 20vh;
+}
+
+.circle-button {
+    cursor: pointer;
+    position: relative;
+    width: 2em;
+    height: 2em;
+    background-color: var(--color-red-low);
+    border: solid 1px var(--color-red);
+    color: var(--general-font);
+    border-radius: 50%;
+    margin-right: .3em;
+    margin-bottom: .3em;
+}
+
+.circle-button:hover {
+    background-color: var(--color-red);
+    border: solid 1px var(--color-red-low);
+}
+
+.photo-item {
+    position: relative;
+    display: inline-block;
+    background-color: var(--color-font-skill-card-info);
+    min-height: 15vh;
+    min-width: 29vw;
+    border-radius: 20px 0 20px 20px;
+    margin: .2em;
+}
+
+.add-element-galery {
+    padding: 0;
+    margin: 0;
+    width: calc(1/100%);
+}
+
+.element-galery {
+    display: flex;
+    overflow: auto;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    padding: 0;
+    margin: 0;
+    width: calc(2/100%);
+}
+
+.galery{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.background-cover{
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.item-n-1{
+    background: url('/assets/firework.jpg');
+}
+
+.item-n-2{
+    background: url('/assets/rain.jpg');
+}
+
+.item-n-3{
+    background: url('/assets/woman.jpg');
+}

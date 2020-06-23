@@ -12,7 +12,7 @@
 }
 
 @keyframes sweepup2 {
-    form {
+    from {
         height: 0vh;
     }
     to {

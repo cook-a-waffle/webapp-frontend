@@ -1,0 +1,41 @@
+.card-static-dark {
+    position: fixed;
+    bottom: 0;
+    height: 0vh;
+    width: 100vw;
+    background-color: var(--color-background);
+    border-radius: 50px 50px 0 0;
+    padding: .2em;
+    animation-name: sweepup2;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes sweepup2 {
+    form {
+        height: 0vh;
+    }
+    to {
+        height: 29vh;
+    }
+}
+
+.card-static-body {
+    overflow: hidden;
+    margin: 1em;
+    height: 90%;
+}
+
+.plus-ico {
+    font-size: 3em;
+}
+
+.level-text{
+    color: var(--main-color);
+}
+
+.text-area{
+    overflow: auto;
+    height: 10vh;
+    text-align: justify;
+}

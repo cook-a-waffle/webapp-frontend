@@ -1,0 +1,38 @@
+<div class="card-static">
+    <div class="card-static-body scroll-theme">
+        <app-mix-nav></app-mix-nav>
+        <div class="mix-body mt-4">
+            <h6 class="mix-title">Show photo</h6>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+        </div>
+        <div class="media-container col-12 d-flex flex-column">
+            <div class="view-photo">
+                <div class="view text-center d-flex flex-row justify-content-center">
+                    <div class="view-img d-flex flex-column justify-content-end align-items-end">
+                        <span class="circle-button d-flex flex-column justify-content-center">
+                            <fa-icon [icon]="faMinus" class="ico-white"></fa-icon>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-between">
+                <h6 class="mix-title mt-2">Current galery</h6>
+                <fa-icon [icon]="faLongArrowAltRight" class="ico-black"></fa-icon>
+            </div>
+            <div class="galery d-flex flex-row">
+                <div class="element-galery scroll-theme">
+                    <div class="photo-item background-cover item-n-1"></div>
+                    <div class="photo-item background-cover item-n-2"></div>
+                    <div class="photo-item background-cover item-n-3"></div>
+                </div>
+                <div class="add-element-galery">
+                    <div class="photo-item photo-item-add d-flex flex-row justify-content-center align-items-center">
+                        <fa-icon [icon]="faPlus" class="ico-white"></fa-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

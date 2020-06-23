@@ -1,6 +1,8 @@
 .categories-nav {
     overflow: auto;
     color: var(--inactive-font);
+    margin: auto;
+    margin-top: 1em;
 }
 
 .categories-nav span {
