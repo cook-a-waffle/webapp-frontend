@@ -1,0 +1,10 @@
+.button-sing {
+    border-radius: 1.25rem;
+    background-color: var(--main-color);
+    height: 3.4375rem;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    line-height: 1.125rem;
+    text-align: center;
+    letter-spacing: 0.0625rem;
+}

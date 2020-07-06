@@ -38,17 +38,40 @@ import { CookItComponent } from './cook-it/cook-it.component';
 import { MainCardCookItComponent } from './cook-it/main-card-cook-it/main-card-cook-it.component';
 import { MainCardCookItDarkComponent } from './cook-it/main-card-cook-it-dark/main-card-cook-it-dark.component';
 import { CookItBottomButtonComponent } from './cook-it/main-card-cook-it-dark/cook-it-bottom-button/cook-it-bottom-button.component';
-
+import { AuthComponent } from './auth/auth.component';
+import { MethodsComponent } from './auth/methods/methods.component';
+import { FormSignComponent } from './auth/form-sign/form-sign.component';
+import { ButtonSignComponent } from './auth/button-sign/button-sign.component';
+import { IndexComponent } from './index/index.component';
+import { MenuBottomComponent } from './index/menu-bottom/menu-bottom.component';
+import { BackgroundComponent } from './index/background/background.component';
+import { SignUpComponent } from './auth/sign-up/sign-up.component';
+import { LinkAccountsComponent } from './auth/link-accounts/link-accounts.component';
+import { FormLinkAccountsComponent } from './auth/form-link-accounts/form-link-accounts.component';
+import { UpgradeChefComponent } from './upgrade-chef/upgrade-chef.component';
+import { ListItemUpgradeComponent } from './upgrade-chef/list-item-upgrade/list-item-upgrade.component';
+import { ButtonGroupComponent } from './upgrade-chef/button-group/button-group.component';
+import { ShopComponent } from './shop/shop.component';
+import { SearchComponent } from './shop/search/search.component';
+import { ItemShopComponent } from './shop/item-shop/item-shop.component';
+import { ShopCardComponent } from './shop/shop-card/shop-card.component';
+import { MainCardShopComponent } from './shop/main-card-shop/main-card-shop.component';
 
 const appRoutes: Routes = [
-  { path: '', component: DashboardComponent },
+  { path: '', component: IndexComponent },
+  { path: 'dashboard', component: DashboardComponent },
+  { path: 'auth', component: AuthComponent },
+  { path: 'signUp', component: SignUpComponent },
+  { path: 'linkAccounts', component: LinkAccountsComponent },
   { path: 'templates', component: TemplatesComponent },
   { path: 'ingredients', component: CheckIngredientsComponent },
   { path: 'addMix', component: AddToMixComponent },
   { path: 'addMixDos', component: AddToMixDosComponent },
   { path: 'addMixTres', component: AddToMixTresComponent },
   { path: 'cookIt', component: CookItComponent },
-  { path: 'saved', component: SavedComponent }
+  { path: 'saved', component: SavedComponent },
+  { path: 'upgrade', component: UpgradeChefComponent },
+  { path: 'shop', component: ShopComponent }
 ];
 
 @NgModule({
@@ -87,7 +110,25 @@ const appRoutes: Routes = [
     CookItComponent,
     MainCardCookItComponent,
     MainCardCookItDarkComponent,
-    CookItBottomButtonComponent
+    CookItBottomButtonComponent,
+    AuthComponent,
+    MethodsComponent,
+    FormSignComponent,
+    ButtonSignComponent,
+    IndexComponent,
+    MenuBottomComponent,
+    BackgroundComponent,
+    SignUpComponent,
+    LinkAccountsComponent,
+    FormLinkAccountsComponent,
+    UpgradeChefComponent,
+    ListItemUpgradeComponent,
+    ButtonGroupComponent,
+    ShopComponent,
+    SearchComponent,
+    ItemShopComponent,
+    ShopCardComponent,
+    MainCardShopComponent
   ],
   imports: [
     BrowserModule,

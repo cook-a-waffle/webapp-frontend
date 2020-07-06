@@ -1,0 +1,23 @@
+.menu-bottom-body{
+    position: absolute;
+    bottom: 0.625rem;
+    width: 100%;
+    padding: 0 2.1875rem;
+    z-index: 3;
+}
+
+.btn-main{
+    border-radius: 0.625rem;
+    box-shadow: 0 1.5625rem 5.9375rem var(--main-color);
+    height: 3.315rem;
+}
+
+.btn-dark{
+    background-color: var(--main-color-dark);
+}
+
+.ul-inicio{
+    margin-top: 1.395rem;
+    padding-bottom: 1.25rem;
+    height: 2.25rem;
+}

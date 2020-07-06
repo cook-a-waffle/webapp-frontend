@@ -1,0 +1,24 @@
+.method-sign {
+    height: 3.25rem;
+    width: 9.375rem;
+    border-radius: 5px;
+    font-size: 1.25rem;
+}
+
+.facebook {
+    background-color: var(--color-facebook);
+    color: var(--general-font);
+}
+
+.facebook-ico {
+    font-size: 1.5rem;
+}
+
+.google {
+    background-color: var(--color-google);
+    color: var(--color-font-google);
+}
+
+.google-ico {
+    font-size: 1.5rem;
+}

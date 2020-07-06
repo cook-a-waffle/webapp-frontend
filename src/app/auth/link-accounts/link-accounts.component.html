@@ -1,0 +1,19 @@
+<div class="sing-body d-flex flex-column">
+    <div class="head-text d-flex flex-column justify-content-center">
+        <h1 class="text-center">Wafflie <br /> Sign Up</h1>
+    </div>
+    <div>
+        <app-form-link-accounts></app-form-link-accounts>
+    </div>
+    <div class="method-zone">
+        <div class="d-flex flex-row ">
+            <fa-icon [icon]="faInfoCircle" class="ico-input ico-white pr-2"></fa-icon>
+            <p class="info-text"> If any of your account emails is different to <span
+                    class="marK-font">cookawaffle@gmail.com</span> cofigure
+                them in the User Menu.</p>
+        </div>
+    </div>
+    <div class="button-zone">
+        <app-button-sign [title]="'SING UP'" [path]="'/dashboard'" [links]="'Login here'" [legend]="'Already have an account?'"></app-button-sign>
+    </div>
+</div>

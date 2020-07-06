@@ -1,0 +1,35 @@
+@import '../../add-to-mix/main-card-mix/main-card-mix.component';
+.card-static {
+    background-color: var(--color-background);
+}
+
+@keyframes sweepup {
+    from {
+        height: 0vh;
+    }
+    to {
+        height: 5vh;
+    }
+}
+
+.card-static-body {
+    overflow: hidden;
+    margin: 1em;
+    height: 90%;
+    color: var(--color-font-skill-card-info);
+}
+
+.card-static:hover {
+    animation-name: sweepup2;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes sweepup2 {
+    from {
+        height: 0vh;
+    }
+    to {
+        height: 40vh;
+    }
+}

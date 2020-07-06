@@ -1,0 +1,29 @@
+<div class="new-body">
+    <app-nav [kindNav]="'navbar-light'"></app-nav>
+    <div class="body-shop">
+        <h1 class="shop-title"><b>Recipi</b>Shop</h1>
+        <div>
+            <app-search></app-search>
+        </div>
+        <div class="d-flex flex-row justify-content-between">
+            <span *ngFor="let item of items">
+                <app-item-shop [item]="item"></app-item-shop>
+            </span>
+        </div>
+        <div class="shop-card-container scroll-theme">
+            <app-shop-card></app-shop-card>
+            <app-shop-card></app-shop-card>
+            <app-shop-card></app-shop-card>
+            <app-shop-card></app-shop-card>
+            <app-shop-card></app-shop-card>
+            <app-shop-card></app-shop-card>
+            <app-shop-card></app-shop-card>
+            <app-shop-card></app-shop-card>
+            <app-shop-card></app-shop-card>
+            <app-shop-card></app-shop-card>
+            <app-shop-card></app-shop-card>
+        </div>
+    </div>
+
+    <app-main-card-shop></app-main-card-shop>
+</div>

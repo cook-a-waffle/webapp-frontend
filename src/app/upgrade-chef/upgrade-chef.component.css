@@ -1,0 +1,25 @@
+.upgrade-body {
+    margin: 0;
+    padding: 1.6875rem;
+}
+
+.link {
+    font-size: 2.0625rem;
+}
+
+.head-text {
+    height: 20vh;
+    font-size: 2.0625rem;
+    font-weight: 600;
+    line-height: 2.4375rem;
+    text-align: center;
+    letter-spacing: 0.00084375px;
+}
+
+.img-waffle{
+    height: 15vh;
+}
+
+.list-body{
+    margin-top: 42px;
+}

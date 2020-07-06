@@ -1,0 +1,24 @@
+.card-item {
+    height: 4.0625rem;
+    width: 4.6875rem;
+    border-radius: 0.875rem;
+    background-color: var(--color-background-main-card);
+    border: solid 0.0625rem var(--color-grey);
+    font-size: 1.5rem;
+}
+
+.card-item-content {
+    height: 9.6875rem;
+    width: 6.25rem;
+    box-shadow: 0rem 0.625rem 2.5rem rgba(0, 0, 0, 0.05);
+    border-radius: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.3125rem;
+    letter-spacing: 0rem;
+}
+
+.card-item-content:hover {
+    background-color: var(--main-color);
+}

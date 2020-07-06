@@ -1,8 +1,16 @@
 .back-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: .5em 1em;
     background-color: var(--main-color);
+    width: 1.875rem;
+    height: 1.875rem;
+    color: var(--general-font);
 }
 
 .back-button:hover {

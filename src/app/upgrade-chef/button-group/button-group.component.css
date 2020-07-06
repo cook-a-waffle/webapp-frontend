@@ -1,0 +1,47 @@
+.info-text {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    letter-spacing: 0.000365625px;
+    color: var(--info-font);
+    text-justify: distribute;
+    text-align: justify;
+}
+
+.ico-input {
+    font-size: 2.1875rem;
+}
+
+.mark-text {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.btn-upgrade {
+    background-color: var(--color-font-main);
+    border-radius: 10px;
+    width: 9.375rem;
+    height: 3.4375rem;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    line-height: 1.125rem;
+    letter-spacing: 0.0625rem;
+}
+
+.btn-upgrade:hover {
+    opacity: .8;
+}
+
+.btn-upgrade-white {
+    background-color: var(--color-background-main-card);
+    color: black;
+}
+
+.buttons-container {
+    margin-top: 2.1875rem;
+}

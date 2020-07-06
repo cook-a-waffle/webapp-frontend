@@ -1,0 +1,22 @@
+#sign input {
+    background-color: var(--color-grey);
+    border-color: var(--color-background);
+    border-radius: 8px;
+    color: var(--general-font);
+    height: 3.4375rem;
+    padding-left: 3rem;
+}
+
+.ico-input {
+    position: absolute;
+    font-size: 1.5625rem;
+    margin-left: 1rem;
+    margin-top: .5rem;
+}
+
+.msg-pink-small {
+    color: var(--color-font-main);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.9375rem;
+}

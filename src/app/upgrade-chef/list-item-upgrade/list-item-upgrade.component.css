@@ -1,0 +1,9 @@
+li {
+    font-size: 1.5625rem;
+    font-weight: 300;
+    padding-bottom: 0.9375rem;
+}
+
+li::before {
+    padding-right: 0.3125rem;
+}

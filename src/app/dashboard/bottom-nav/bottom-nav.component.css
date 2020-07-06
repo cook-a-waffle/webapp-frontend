@@ -7,5 +7,9 @@
     z-index: 10;
 }
 .nav-content{
-    font-size: 2em;
+    font-size: 1.25rem;
+}
+
+.ico-active{
+    font-size: 2.5rem;
 }

@@ -1,0 +1,19 @@
+.body-shop {
+    padding: 0.625rem 1.6875rem 2.8125rem 1.6875rem;
+}
+
+.shop-title {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    letter-spacing: 0.00084375px;
+    margin-bottom: 30px;
+}
+
+.shop-card-container{
+    margin-top: 2.5625rem;
+    height: 45vh;
+    overflow: auto;
+}
