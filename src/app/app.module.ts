@@ -56,6 +56,11 @@ import { SearchComponent } from './shop/search/search.component';
 import { ItemShopComponent } from './shop/item-shop/item-shop.component';
 import { ShopCardComponent } from './shop/shop-card/shop-card.component';
 import { MainCardShopComponent } from './shop/main-card-shop/main-card-shop.component';
+import { AcademyComponent } from './academy/academy.component';
+import { DetailComponent } from './academy/detail/detail.component';
+import { ItemCardAcademyComponent } from './academy/item-card-academy/item-card-academy.component';
+import { SigleCardAcademyComponent } from './academy/item-card-academy/sigle-card-academy/sigle-card-academy.component';
+import { CardDetailComponent } from './academy/detail/card-detail/card-detail.component';
 
 const appRoutes: Routes = [
   { path: '', component: IndexComponent },
@@ -71,7 +76,9 @@ const appRoutes: Routes = [
   { path: 'cookIt', component: CookItComponent },
   { path: 'saved', component: SavedComponent },
   { path: 'upgrade', component: UpgradeChefComponent },
-  { path: 'shop', component: ShopComponent }
+  { path: 'shop', component: ShopComponent },
+  { path: 'academy', component: AcademyComponent },
+  { path: 'academy/detail', component: DetailComponent }
 ];
 
 @NgModule({
@@ -128,7 +135,12 @@ const appRoutes: Routes = [
     SearchComponent,
     ItemShopComponent,
     ShopCardComponent,
-    MainCardShopComponent
+    MainCardShopComponent,
+    AcademyComponent,
+    DetailComponent,
+    ItemCardAcademyComponent,
+    SigleCardAcademyComponent,
+    CardDetailComponent
   ],
   imports: [
     BrowserModule,

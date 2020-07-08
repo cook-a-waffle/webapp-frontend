@@ -1,0 +1,41 @@
+.card-body-items {
+    height: 2.8125rem;
+    margin-bottom: 10px;
+}
+
+.button-academy-item {
+    margin-right: 1.25rem;
+    position: relative;
+    min-width: 2.8125rem;
+    min-height: 2.8125rem;
+    background-color: var(--color-font-skill-card-info);
+    border-radius: 0.8125rem;
+}
+
+
+.button-academy-item:hover {
+    background-color: var(--main-color);
+    color: var(--general-font) !important;
+}
+
+.title {
+    padding: 0;
+    margin: 0;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.3125rem;
+    letter-spacing: 0.00050625px;
+}
+
+.content-text{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.icon-play{
+    font-size: 14px;
+    color: var(--main-color);
+}

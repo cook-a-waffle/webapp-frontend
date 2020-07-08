@@ -1,0 +1,12 @@
+.container-item  {
+    overflow: auto;
+}
+
+.title {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.3125rem;
+    letter-spacing: 0.00050625px;
+}

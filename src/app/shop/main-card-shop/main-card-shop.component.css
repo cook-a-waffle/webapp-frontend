@@ -30,6 +30,41 @@
         height: 0vh;
     }
     to {
-        height: 40vh;
+        height: 37vh;
     }
+}
+
+.almost-title{
+    font-size: .8rem;
+}
+
+.score{
+    font-size: .8rem;
+}
+
+.ico-cart{
+    font-size: 1.6rem;
+}
+
+.rate{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.star-rate{
+    margin: 0.125rem;
+}
+
+.button{
+    color: var(--general-font);
+}
+
+.content-text-shop{
+    font-size: 1rem;
+}
+
+.name-text{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
 }

@@ -1,0 +1,50 @@
+.img-body-academy-detail {
+    height: 298px;
+    background-color: var(--color-font-skill-card-info);
+}
+
+.title {
+    font-family: SF Pro Display;
+    font-weight: bold;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    letter-spacing: 0.00084375px;
+}
+
+.content-academy-detail {
+    margin: 0;
+    padding: 25px;
+}
+
+.control-progress {
+    width: 40%;
+    margin-right: 10px;
+}
+
+.progress-text {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    letter-spacing: 0.00039375px;
+    color: var(--color-font-skill-card-info);
+}
+
+.progress {
+    height: 0.4375rem;
+    border-radius: 0.3125rem;
+}
+
+.progress-bar {
+    background-color: var(--color-progress-bar);
+    height: 0.4375rem;
+    border-radius: 0.3125rem;
+}
+
+.content-cards-academy {
+    height: 37vh;
+    overflow: auto;
+    padding: 44px 0 0 0;
+    margin: 0;
+}

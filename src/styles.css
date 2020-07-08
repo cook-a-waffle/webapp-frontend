@@ -25,6 +25,7 @@
     --color-font-google: #EA4335;
     --color-check-active: #348899;
     --color-check-inactive: #B3205F;
+    --color-progress-bar: #63A25E;
 }
 
 body {
@@ -210,7 +211,7 @@ li::before {
     /* Coloreamos la viñeta */
 }
 
-.new-body{
+.new-body {
     color: var(--color-font-skill-card-title);
     background-color: var(--color-background-main-card);
     height: 100vh;

@@ -1,0 +1,25 @@
+.body-academy {
+    padding: 0.625rem 1.6875rem 2.8125rem 1.6875rem;
+}
+
+.academy-title {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    letter-spacing: 0.00084375px;
+    margin-bottom: 1.875rem;
+}
+
+.academy-card-container{
+    margin-top: 2.5625rem;
+    height: 40vh;
+}
+.body-content-academy{
+    height: 60vh;
+    overflow: auto;
+}
+
+.nav-bottom{
+}
