@@ -4,14 +4,14 @@
     padding: 30px 30px 0 30px;
 }
 
-@keyframes sweepup {
+/* @keyframes sweepup {
     form {
         height: 0vh;
     }
     to {
         height: 75vh;
     }
-}
+} */
 
 .card-static-body {
     height: 53%;
