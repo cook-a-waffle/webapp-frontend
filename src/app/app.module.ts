@@ -29,11 +29,9 @@ import { MixNavComponent } from './add-to-mix/main-card-mix/mix-nav/mix-nav.comp
 import { MixBottomButtonComponent } from './add-to-mix/mix-bottom-button/mix-bottom-button.component';
 import { AddToMixDosComponent } from './add-to-mix-dos/add-to-mix-dos.component';
 import { MainCardMixDosComponent } from './add-to-mix-dos/main-card-mix-dos/main-card-mix-dos.component';
-import { MixBottomButtonDosComponent } from './add-to-mix-dos/mix-bottom-button-dos/mix-bottom-button-dos.component';
 import { AddToMixTresComponent } from './add-to-mix-tres/add-to-mix-tres.component';
 import { SavedComponent } from './saved/saved.component';
 import { MainCardMixTresComponent } from './add-to-mix-tres/main-card-mix-tres/main-card-mix-tres.component';
-import { MixBottomButtonTresComponent } from './add-to-mix-tres/mix-bottom-button-tres/mix-bottom-button-tres.component';
 import { CookItComponent } from './cook-it/cook-it.component';
 import { MainCardCookItComponent } from './cook-it/main-card-cook-it/main-card-cook-it.component';
 import { MainCardCookItDarkComponent } from './cook-it/main-card-cook-it-dark/main-card-cook-it-dark.component';
@@ -78,7 +76,8 @@ const appRoutes: Routes = [
   { path: 'upgrade', component: UpgradeChefComponent },
   { path: 'shop', component: ShopComponent },
   { path: 'academy', component: AcademyComponent },
-  { path: 'academy/detail', component: DetailComponent }
+  { path: 'academy/detail', component: DetailComponent },
+  { path: 'test', component: CardDetailComponent }
 ];
 
 @NgModule({
@@ -109,11 +108,9 @@ const appRoutes: Routes = [
     MixBottomButtonComponent,
     AddToMixDosComponent,
     MainCardMixDosComponent,
-    MixBottomButtonDosComponent,
     AddToMixTresComponent,
     SavedComponent,
     MainCardMixTresComponent,
-    MixBottomButtonTresComponent,
     CookItComponent,
     MainCardCookItComponent,
     MainCardCookItDarkComponent,

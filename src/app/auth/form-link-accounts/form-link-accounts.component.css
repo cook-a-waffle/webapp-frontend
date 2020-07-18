@@ -69,9 +69,9 @@
 } */
 
 .label-check {
-    font-family: Avenir;
+    font-family: 'Quicksand';
     font-style: normal;
-    font-weight: normal;
+    font-weight: 300;
     font-size: 1.5rem;
     line-height: 1.9375rem;
 }
@@ -81,6 +81,13 @@
     content: "✓";
 }
 
-.sign{
+.tgl-light+.tgl-btn::after {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    font-size: 11px;
+}
+
+.sign {
     height: 20.5vh;
 }

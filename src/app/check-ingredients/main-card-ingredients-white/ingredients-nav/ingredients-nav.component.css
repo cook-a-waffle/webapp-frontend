@@ -1,7 +1,7 @@
 .ingredients-nav{
-    height: calc(35vh/4);
+    height: 3.75rem;
     overflow: auto;
-    padding: 0;
+    margin: 0 0 0.875rem 0;
 }
 
 .ingredients-nav::-webkit-scrollbar {

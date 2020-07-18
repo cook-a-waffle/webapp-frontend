@@ -1,4 +1,4 @@
-.menu-bottom-body{
+.menu-bottom-body {
     position: absolute;
     bottom: 0.625rem;
     width: 100%;
@@ -6,17 +6,21 @@
     z-index: 3;
 }
 
-.btn-main{
+.btn-main {
     border-radius: 0.625rem;
     box-shadow: 0 1.5625rem 5.9375rem var(--main-color);
     height: 3.315rem;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.875rem;
 }
 
-.btn-dark{
+.btn-dark {
     background-color: var(--main-color-dark);
 }
 
-.ul-inicio{
+.ul-inicio {
     margin-top: 1.395rem;
     padding-bottom: 1.25rem;
     height: 2.25rem;

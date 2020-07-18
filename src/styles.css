@@ -26,11 +26,15 @@
     --color-check-active: #348899;
     --color-check-inactive: #B3205F;
     --color-progress-bar: #63A25E;
+    --color-light-grey: #ECEDF2;
 }
 
 body {
     background-color: var(--color-background);
     color: var(--general-font);
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .link {
@@ -108,16 +112,10 @@ body {
     user-select: none;
 }
 
-.button-content {
-    margin: 0;
-    font-size: 2em;
-    padding: 0;
-}
-
 .btn-main {
     background-color: var(--main-color);
     color: var(--general-font);
-    border-radius: 30px;
+    border-radius: 1.25rem;
     cursor: pointer;
 }
 
@@ -194,6 +192,9 @@ ul {
     /* Quitamos el padding por defecto de la lista */
     margin: 0;
     /* Separamos la lista de la izquierda */
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 700;
     font-size: 1.875rem;
 }
 

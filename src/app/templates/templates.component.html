@@ -1,6 +1,6 @@
 <app-nav></app-nav>
 <div class="container d-flex flex-column justify-content-center text-center">
-    <h1>Choose a recipie</h1>
+    <h1 class="title-font">Choose a recipie</h1>
 </div>
 <app-main-card-template></app-main-card-template>
-<app-bottom-button></app-bottom-button>
+<app-bottom-button [title]="'View this recipe'" [classCustome]="'hide'" [path]="'/ingredients'"></app-bottom-button>

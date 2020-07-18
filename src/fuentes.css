@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    src: url('/assets/fonts/SF Pro display/SF-Pro-Display-Black.otf');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    src: url('/assets/fonts/SF Pro display/SF-Pro-Display-Blackltalic.otf');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    src: url('/assets/fonts/SF Pro display/SF-Pro-Display-Heavy.otf');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    src: url('/assets/fonts/SF Pro display/SF-Pro-Display-Heavyltalic.otf');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    src: url('/assets/fonts/SF Pro display/SF-Pro-Display-Bold.otf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    src: url('/assets/fonts/SF Pro display/SF-Pro-Display-BoldItalic.otf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    src: url('/assets/fonts/SF Pro display/SF-Pro-Display-Semibold.otf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    src: url('/assets/fonts/SF Pro display/SF-Pro-Display-Semiboldltalic.otf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    src: url('/assets/fonts/SF Pro display/SF-Pro-Display-Medium.otf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    src: url('/assets/fonts/SF Pro display/SF-Pro-Display-Mediumitalic.otf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    src: url('/assets/fonts/SF Pro display/SF-Pro-Display-Regular.otf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    src: url('/assets/fonts/SF Pro display/SF-Pro-Display-Regularltalic.otf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    src: url('/assets/fonts/SF Pro display/SF-Pro-Display-Light.otf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    src: url('/assets/fonts/SF Pro display/SF-Pro-Display-LightItalic.otf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    src: url('/assets/fonts/SF Pro display/SF-Pro-Display-Thin.otf');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    src: url('/assets/fonts/SF Pro display/SF-Pro-Display-Thinltalic.otf');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    src: url('/assets/fonts/SF Pro display/SF-Pro-Display-Ultralight.otf');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    src: url('/assets/fonts/SF Pro display/SF-Pro-Display-Ultralightltalic.otf');
+    font-weight: 100;
+}
+
+/* Quicksand */
+
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    src: url('/assets/fonts/Quicksand/Quicksand-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    src: url('/assets/fonts/Quicksand/Quicksand-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    src: url('/assets/fonts/Quicksand/Quicksand-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    src: url('/assets/fonts/Quicksand/Quicksand-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    src: url('/assets/fonts/Quicksand/Quicksand-Light.ttf');
+    font-weight: 300;
+}

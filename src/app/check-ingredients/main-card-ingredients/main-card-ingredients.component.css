@@ -1,6 +1,7 @@
 @import '../../dashboard/main-card/main-card.component';
 .card-static{
     background-color: var(--main-color);
+    padding: 30px 30px 0 30px;
 }
 
 @keyframes sweepup {
@@ -15,5 +16,5 @@
 .card-static-body {
     height: 53%;
     overflow: hidden;
-    margin: .5em;
+    margin: 0;
 }

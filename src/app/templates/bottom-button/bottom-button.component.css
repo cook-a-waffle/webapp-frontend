@@ -1,8 +1,27 @@
 .bottom-button {
     background-color: var(--color-background-main-card);
     position: fixed;
-    height: 7vh;
+    height: 75px;
     width: 100vw;
     bottom: 0;
     z-index: 10;
+}
+
+.btn-main {
+    background-color: var(--main-color);
+    color: var(--general-font);
+    border-radius: 1.25rem;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    letter-spacing: 0.0625rem;
+    height: 55px;
+}
+
+.hide{
+    display: none;
+}
+
+.mod{
+    position: relative;
 }

@@ -1,6 +1,6 @@
 .sing-body {
     margin: 0;
-    padding: 30px;
+    padding: 1.875rem;
 }
 
 .head-text {
@@ -9,4 +9,11 @@
 
 .method-zone {
     height: 18vh;
+}
+
+.text-format {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.875rem;
 }

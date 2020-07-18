@@ -2,9 +2,9 @@
 .info-text {
     font-family: SF Pro Display;
     font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 16px;
+    font-weight: 400;
+    font-size: 0.8125rem;
+    line-height: 1rem;
     letter-spacing: 0.000365625px;
     color: var(--info-font);
     text-justify: distribute;

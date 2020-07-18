@@ -1,38 +1,37 @@
 .card-template {
     border-color: white;
-    border-radius: 20px;
-    margin: .5em;
+    border-radius: 1.25rem;
+    margin: .5rem 0;
 }
 
 .card-template:hover {
     background-color: var(--color-skill-card-active);
 }
 
-.card-body{
-    padding: .5rem;
-}
-/* .template-button {
-    font-size: 1em;
-    width: 1.4em;
-    text-align: center;
-    border-radius: 5px;
-    background-color: var(--color-background-badge-dinner);
-    padding-left: .05em;
-    margin-bottom: .02em;
-} */
-
-.template-button {
-    font-size: 2.2em;
-    width: 1.5em;
-    text-align: center;
-    border-radius: 10px;
-    background-color: var(--color-background-badge-dinner);
-    padding-left: .1em;
-    margin-bottom: .2em;
+.card-body {
+    padding: 0.3125rem;
 }
 
 .card-template-title {
+    margin: 0;
+    padding: 0;
+}
+
+.card-template-title {
+    margin: 0;
+    padding: 0.3125rem 0 0 0;
+}
+
+.font-title {
+    margin: 0;
+    padding: 0;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.0625rem;
+    line-height: 1.3125rem;
     color: var(--color-font-template-title);
+    letter-spacing: 0.00050625px;
 }
 
 .card-template-info {
@@ -40,10 +39,35 @@
     color: var(--color-font-template-info);
 }
 
-.ico-heart{
+.ico-heart {
     color: var(--color-ico-general);
 }
 
-.ico-heart:hover{
+.ico-heart:hover {
     color: var(--main-color);
+}
+
+.image-round {
+    width: 3.4375rem;
+    height: 3.4375rem;
+    display: inline-block;
+    background-color: var(--color-background-badge-dinner);
+    border-radius: 50%;
+    margin: .2em;
+}
+
+.ico-play {
+    padding: 3px 0 0 3px;
+    font-size: 1.0625rem;
+}
+
+.card-template-content{
+    margin: 0;
+    padding: 0;
+}
+
+.content-text{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
