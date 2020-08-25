@@ -14,11 +14,6 @@
 
 .card-template-title {
     margin: 0;
-    padding: 0;
-}
-
-.card-template-title {
-    margin: 0;
     padding: 0.3125rem 0 0 0;
 }
 
@@ -35,7 +30,10 @@
 }
 
 .card-template-info {
-    font-size: .8em;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    letter-spacing: 0.00039375px;
     color: var(--color-font-template-info);
 }
 
@@ -47,27 +45,16 @@
     color: var(--main-color);
 }
 
-.image-round {
-    width: 3.4375rem;
-    height: 3.4375rem;
-    display: inline-block;
-    background-color: var(--color-background-badge-dinner);
-    border-radius: 50%;
-    margin: .2em;
-}
-
-.ico-play {
-    padding: 3px 0 0 3px;
-    font-size: 1.0625rem;
-}
-
-.card-template-content{
+.card-template-content {
     margin: 0;
     padding: 0;
 }
 
-.content-text{
+.content-text {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+}
+
+.card-template-button {
 }

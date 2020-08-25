@@ -1,10 +1,8 @@
 <div>
-    <p class="title">title</p>
+    <p class="title">{{items[0]}}</p>
     <div class="container-item d-flex flex-row scroll-theme">
-        <app-sigle-card-academy></app-sigle-card-academy>
-        <app-sigle-card-academy></app-sigle-card-academy>
-        <app-sigle-card-academy></app-sigle-card-academy>
-        <app-sigle-card-academy></app-sigle-card-academy>
-        <app-sigle-card-academy></app-sigle-card-academy>
+        <span *ngFor="let card of items[1]">
+            <app-sigle-card-academy [card]="card"></app-sigle-card-academy>
+        </span>
     </div>
 </div>

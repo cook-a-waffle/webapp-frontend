@@ -1,11 +1,14 @@
+.new-body {
+    height: 100vh;
+}
+
 .img-body-academy-detail {
     height: 298px;
     background-color: var(--color-font-skill-card-info);
 }
 
 .title {
-    font-family: SF Pro Display;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 1.875rem;
     line-height: 2.25rem;
     letter-spacing: 0.00084375px;
@@ -13,7 +16,7 @@
 
 .content-academy-detail {
     margin: 0;
-    padding: 25px;
+    padding: 1.1875rem 1.5625rem;
 }
 
 .control-progress {
@@ -43,8 +46,7 @@
 }
 
 .content-cards-academy {
-    height: 37vh;
+    height: 33vh;
     overflow: auto;
-    padding: 44px 0 0 0;
-    margin: 0;
+    margin: 2.75rem 0 0 0;
 }

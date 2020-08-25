@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./add-to-mix-tres.component.css']
 })
 export class AddToMixTresComponent implements OnInit {
-
-  constructor() { }
+  photoItems: Array<string> = new Array();
+  constructor() {
+    this.photoItems = ['/assets/lotus.jpg', '/assets/firework.jpg', '/assets/rain.jpg', '/assets/woman.jpg', '/assets/apple.jpg', '/assets/frog.jpg', '/assets/blueBird.jpg', '/assets/duckling.jpg', '/assets/sunSet.jpg', '/assets/heritage.jpg'];
+  }
 
   ngOnInit(): void {
   }

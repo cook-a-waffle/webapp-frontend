@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Location } from '@angular/common';
+import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-upgrade-chef',
@@ -7,8 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UpgradeChefComponent implements OnInit {
   lista: string[];
-  constructor() {
+  faTimes = faTimes;
+  constructor(private location: Location) {
     this.lista = ['Unlock All Templates Free', 'Publish Your Waflies', 'Live Support', 'Create Custom Waflies'];
+  }
+
+  goBack() {
+    this.location.back();
   }
 
   ngOnInit(): void {

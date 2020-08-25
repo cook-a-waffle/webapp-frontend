@@ -2,5 +2,5 @@
 <div class="container d-flex flex-column justify-content-center text-center">
     <h1 class="title-font">Choose a recipie</h1>
 </div>
-<app-main-card-template></app-main-card-template>
-<app-bottom-button [title]="'View this recipe'" [classCustome]="'hide'" [path]="'/ingredients'"></app-bottom-button>
+<app-main-card-template [items]="items" [categories]="categories"></app-main-card-template>
+<app-bottom-button [title]="'View this recipe'" [modePosition]="'mod-p'" [classCustome]="'hide'" [path]="'/ingredients'"></app-bottom-button>

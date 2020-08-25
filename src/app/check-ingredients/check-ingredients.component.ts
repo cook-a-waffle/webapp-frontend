@@ -6,8 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./check-ingredients.component.css']
 })
 export class CheckIngredientsComponent implements OnInit {
+  items: Array<number> = new Array();
+  constructor() {
+    this.items = this.buildItems(15);
+  }
 
-  constructor() { }
+  buildItems(times: number) {
+    let itemsCards: Array<number> = new Array();
+    for (let index = 1; index <= times; index++) {
+      itemsCards.push(index);
+    }
+    return itemsCards;
+  }
 
   ngOnInit(): void {
   }

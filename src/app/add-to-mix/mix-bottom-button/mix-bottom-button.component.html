@@ -1,8 +1,9 @@
-<div class="bottom-button d-flex justify-content-center">
-    <div class="button-content d-flex justify-content-center col-12 col-sm-12 col-md-6 align-content-center">
-        <button class="btn btn-main col-10 col-sm-10 col-md-8" [routerLink]="['/addMixDos']">
-            <fa-icon [icon]="faMortarPestle" class="ico-white pr-2"></fa-icon>
-            Add to mix
-        </button>
-    </div>
+<div class="main-container" style="position: absolute;">
+    <svg (click)="circleProgress(0)" class="progress-ring" height="55" width="55" stroke="white">
+        <circle class="progress-ring__bg" fill="transparent" r="25.5" cx="27.5" cy="27.5" />
+        <circle #circle class="progress-ring__circle" fill="transparent" r="25.5" cx="27.5" cy="27.5" />
+    </svg>
+    <span class="play-container d-flex flex-column justify-content-center align-items-center">
+        <fa-icon [icon]="faPlay" class="ico-white play"></fa-icon>
+    </span>
 </div>

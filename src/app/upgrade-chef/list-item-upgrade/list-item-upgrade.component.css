@@ -1,7 +1,8 @@
 li {
+    font-weight: 700;
     font-size: 1.5625rem;
-    font-weight: 300;
-    padding-bottom: 0.9375rem;
+    line-height: 1.9375rem;
+    margin-bottom: 0.9375rem;
 }
 
 li::before {

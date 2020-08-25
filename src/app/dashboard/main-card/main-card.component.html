@@ -1,15 +1,7 @@
 <div class="card-static">
     <div class="card-static-body scroll-theme">
-        <app-skill-card></app-skill-card>
-        <app-skill-card></app-skill-card>
-        <app-skill-card></app-skill-card>
-        <app-skill-card></app-skill-card>
-        <app-skill-card></app-skill-card>
-        <app-skill-card></app-skill-card>
-        <app-skill-card></app-skill-card>
-        <app-skill-card></app-skill-card>
-        <app-skill-card></app-skill-card>
-        <app-skill-card></app-skill-card>
-        <app-skill-card></app-skill-card>
+        <span *ngFor="let item of items">
+            <app-skill-card [item]="item"></app-skill-card>
+        </span>
     </div>
 </div>

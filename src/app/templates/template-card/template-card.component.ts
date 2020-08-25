@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import { faPlay } from '@fortawesome/free-solid-svg-icons';
 @Component({
@@ -7,7 +7,7 @@ import { faPlay } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./template-card.component.css']
 })
 export class TemplateCardComponent implements OnInit {
-
+  @Input() item: any;
   constructor() { }
   faHeart = faHeart;
   faPlay = faPlay;

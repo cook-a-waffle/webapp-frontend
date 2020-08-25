@@ -1,20 +1,52 @@
 @import '../../dashboard/main-card/main-card.component';
 .mix-body {
-    font-size: .8em;
     color: var(--color-font-skill-card-info);
-    height: 20vh;
+    font-weight: 300;
+    font-size: 0.9375rem;
+    line-height: 1.125rem;
+    letter-spacing: 0.000365625px;
+    margin: 2.8125rem 0 2.375rem 0;
 }
 
 .mix-title {
     color: var(--color-font-skill-card-title);
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+    letter-spacing: 0.0833rem;
 }
 
 .form-container {
-    font-size: .8em;
-    color: var(--color-font-skill-card-info);
+    padding: 0;
+    color: var(--color-font-skill-card-title);
+    font-weight: 400;
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    letter-spacing: 0.000365625px;
+    padding: 0 0.3125rem;
 }
 
-.form-control{
-    background-color: var(--color-ico-general);
-    border-radius: 20px;
+.form-control {
+    background-color: var(--bg-input);
+    border-radius: 1.25rem;
+    height: 3.4375rem;
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.125rem;
+    letter-spacing: 0.0625rem;
+    padding: 1.25rem;
+}
+
+.card-static {
+    padding: 0.8125rem 1.5625rem 0 1.5625rem;
+}
+
+.form-group {
+    padding: 0;
+    margin-bottom: 0.3125rem;
+}
+
+.form-group>label{
+    margin: 0;
+    padding-left: 1.25rem;
 }

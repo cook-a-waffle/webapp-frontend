@@ -3,8 +3,8 @@
     width: 4.6875rem;
     border-radius: 0.875rem;
     background-color: var(--color-background-main-card);
-    border: solid 0.0625rem var(--color-grey);
-    font-size: 1.5rem;
+    border: solid 0.0625rem var(--br-card);
+    font-size: 2.0625rem;
 }
 
 .card-item-content {
@@ -19,6 +19,26 @@
     letter-spacing: 0rem;
 }
 
-.card-item-content:hover {
+.card-item-content-hover {
     background-color: var(--main-color);
+}
+
+.font-number {
+    font-weight: 500;
+    font-size: 0.9375rem;
+    line-height: 1.125rem;
+    letter-spacing: 0.000421875px;
+}
+
+.circles {
+    margin: 0;
+    padding: 0;
+}
+
+.dark-svg{
+    fill:#4A4A5B;
+}
+
+.white-svg{
+    fill:#fff;
 }

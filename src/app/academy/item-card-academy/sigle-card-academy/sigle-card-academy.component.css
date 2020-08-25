@@ -21,7 +21,7 @@
     padding: 0;
     font-family: SF Pro Display;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 1.0625rem;
     line-height: 1.25rem;
     letter-spacing: 0.000478125px;
@@ -31,7 +31,7 @@
     font-size: 0.8125rem;
     line-height: 1rem;
     letter-spacing: 0.000365625px;
-    color: #B8C0C9;
+    color: var(--color-font-template-info);
 }
 
 .text-area {

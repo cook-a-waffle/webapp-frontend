@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-sigle-card-academy',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sigle-card-academy.component.css']
 })
 export class SigleCardAcademyComponent implements OnInit {
-
+  @Input() card: any;
   constructor() { }
 
   ngOnInit(): void {

@@ -1,38 +1,21 @@
 <div class="card-static">
     <div class="card-static-body scroll-theme">
-        <app-mix-nav></app-mix-nav>
-        <div class="mix-body mt-4">
+        <app-mix-nav [op]="op"></app-mix-nav>
+        <div class="mix-body">
             <h6 class="mix-title">Step</h6>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
         </div>
-        <div class="form-container col-12 col-md-8 col-sm-10 m-auto">
+        <div class="form-container col-12 col-md-8 col-sm-10 m-auto scroll-theme">
             <form action="#">
                 <div class="form-items">
-                    <div class="form-group col-12">
-                        <label for="ff1">Fun Fact 1</label>
-                        <input type="text" name="ff1" id="ff1" class="form-control">
-                    </div>
-
-                    <div class="form-group col-12">
-                        <label for="ff2">Fun Fact 2</label>
-                        <input type="text" name="ff2" id="ff2" class="form-control">
-                    </div>
-
-                    <div class="form-group col-12">
-                        <label for="ff3">Fun Fact 3</label>
-                        <input type="text" name="ff3" id="ff3" class="form-control">
-                    </div>
+                    <span *ngFor="let item of items">
+                        <app-fun-fac [item]="item"></app-fun-fac>
+                    </span>
                 </div>
             </form>
         </div>
-
-        <div class="add-element d-flex flex-row justify-content-center align-content-center non-selectable">
-            <div class="add-element-content d-flex justify-content-center align-items-center col-12 col-sm-12 col-md-6">
-                <fa-icon [icon]="faPlusCircle" class="ico-general col-2"></fa-icon>
-                <span>Add element</span>
-            </div>
-        </div>
+        <app-white-plus-button [title]="'Add element'"></app-white-plus-button>
     </div>
 </div>

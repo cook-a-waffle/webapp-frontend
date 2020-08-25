@@ -59,6 +59,11 @@ import { DetailComponent } from './academy/detail/detail.component';
 import { ItemCardAcademyComponent } from './academy/item-card-academy/item-card-academy.component';
 import { SigleCardAcademyComponent } from './academy/item-card-academy/sigle-card-academy/sigle-card-academy.component';
 import { CardDetailComponent } from './academy/detail/card-detail/card-detail.component';
+import { WhitePlusButtonComponent } from './check-ingredients/white-plus-button/white-plus-button.component';
+import { ProgressPlayComponent } from './templates/template-card/progress-play/progress-play.component';
+import { FunFacComponent } from './add-to-mix-dos/main-card-mix-dos/fun-fac/fun-fac.component';
+import { PhotoItemComponent } from './add-to-mix-tres/main-card-mix-tres/photo-item/photo-item.component';
+import { UpDownComponent } from './up-down/up-down.component';
 
 const appRoutes: Routes = [
   { path: '', component: IndexComponent },
@@ -77,7 +82,7 @@ const appRoutes: Routes = [
   { path: 'shop', component: ShopComponent },
   { path: 'academy', component: AcademyComponent },
   { path: 'academy/detail', component: DetailComponent },
-  { path: 'test', component: CardDetailComponent }
+  { path: 'test', component: MixBottomButtonComponent }
 ];
 
 @NgModule({
@@ -137,7 +142,12 @@ const appRoutes: Routes = [
     DetailComponent,
     ItemCardAcademyComponent,
     SigleCardAcademyComponent,
-    CardDetailComponent
+    CardDetailComponent,
+    WhitePlusButtonComponent,
+    ProgressPlayComponent,
+    FunFacComponent,
+    PhotoItemComponent,
+    UpDownComponent
   ],
   imports: [
     BrowserModule,

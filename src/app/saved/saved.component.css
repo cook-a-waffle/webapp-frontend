@@ -1,36 +1,75 @@
 .conteiner-saved {
-    height: 90vh;
+    height: 92vh;
 }
 
 .name-element {
     opacity: 0;
-    animation-name: text-appear;
+    animation-name: element-appear;
     animation-timing-function: ease-out;
     animation-delay: 2s;
     animation-duration: 4s;
     animation-fill-mode: forwards;
+    margin-bottom: 2.5625rem;
 }
 
-@keyframes text-appear {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+.name-element>p {
+    margin: 0;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+    letter-spacing: 0.0833rem;
 }
 
 .btn-main {
+    height: 3.4375rem;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    line-height: 1.125rem;
+    letter-spacing: 0.0625rem;
     opacity: 0;
-    font-size: 1.5em;
-    animation-name: button-appear;
+    animation-name: element-appear;
     animation-timing-function: ease-out;
     animation-delay: 6s;
     animation-duration: 4s;
     animation-fill-mode: forwards;
+    margin-bottom: 9.125rem;
 }
 
-@keyframes button-appear {
+.font-title {
+    font-weight: 700;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    text-align: center;
+    letter-spacing: 0.0001rem;
+    margin: 0;
+}
+
+.container {
+    margin-bottom: 2.5625rem;
+}
+
+.img-container {
+    margin-bottom: 1.125rem;
+}
+
+.btn-min {
+    border: 1px solid var(--color-light-grey);
+    box-sizing: border-box;
+    border-radius: 0.625rem;
+    height: 3.4375rem;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    line-height: 1.125rem;
+    color: var(--general-font);
+    animation-name: element-appear;
+    animation-timing-function: ease-out;
+    animation-delay: 10s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes element-appear {
     from {
         opacity: 0;
     }

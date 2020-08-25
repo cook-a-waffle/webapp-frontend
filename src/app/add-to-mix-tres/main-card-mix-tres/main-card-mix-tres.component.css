@@ -1,12 +1,19 @@
 @import '../../dashboard/main-card/main-card.component';
 .mix-body {
-    font-size: .8em;
     color: var(--color-font-skill-card-info);
-    height: 10vh;
+    margin: 2.8125rem 0 1.25rem 0;
+    font-weight: 300;
+    font-size: 0.9375rem;
+    line-height: 1.125rem;
+    letter-spacing: 0.000365625px;
 }
 
 .mix-title {
     color: var(--color-font-skill-card-title);
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+    letter-spacing: 1.33333px;
 }
 
 .media-container {
@@ -21,38 +28,38 @@
 .view-img {
     padding: 0;
     margin: 0;
-    height: 100%;
-    width: 60vw;
+    height: 132.5px;
+    width: 240px;
     background-image: url('/assets/firework.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 20px;
+    border-radius: 0.875rem;
 }
 
-.background-cover{
+.background-cover {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.view-photo, .galery {
+.view-photo {
     padding: 0;
-    margin: 0;
-    height: 20vh;
+    margin-bottom: 1.1875rem;
+    height: 8.2813rem;
 }
 
 .circle-button {
     cursor: pointer;
     position: relative;
-    width: 2em;
-    height: 2em;
+    width: 1.9063rem;
+    height: 1.9063rem;
     background-color: var(--color-red-low);
     border: solid 1px var(--color-red);
     color: var(--general-font);
     border-radius: 50%;
-    margin-right: .3em;
-    margin-bottom: .3em;
+    margin-right: 0.75rem;
+    margin-bottom: 0.4375rem;
 }
 
 .circle-button:hover {
@@ -64,16 +71,19 @@
     position: relative;
     display: inline-block;
     background-color: var(--color-font-skill-card-info);
-    min-height: 15vh;
-    min-width: 29vw;
-    border-radius: 20px 0 20px 20px;
-    margin: .2em;
+    height: 5rem;
+    min-height: 5rem;
+    width: 7.1875rem;
+    min-width: 7.1875rem;
+    border-radius: 1.25rem 0 1.25rem 1.25rem;
+    margin: 0.1875rem;
 }
 
 .add-element-galery {
     padding: 0;
     margin: 0;
-    width: calc(1/100%);
+    font-size: 52px;
+    /* width: calc(1/100%); */
 }
 
 .element-galery {
@@ -85,29 +95,52 @@
     align-content: flex-start;
     padding: 0;
     margin: 0;
-    width: calc(2/100%);
+    /* width: calc(2/100%); */
 }
 
-.galery{
+.galery {
+    height: 90px;
     padding: 0;
     margin: 0;
     width: 100%;
 }
 
-.background-cover{
+.background-cover {
     background-position: center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
 }
 
-.item-n-1{
+/* .item-n-1 {
     background: url('/assets/firework.jpg');
 }
 
-.item-n-2{
+.item-n-2 {
     background: url('/assets/rain.jpg');
 }
 
-.item-n-3{
+.item-n-3 {
     background: url('/assets/woman.jpg');
+} */
+
+.card-static {
+    padding: 0.8125rem 1.5625rem 0 1.5625rem;
+}
+
+.font-galery {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.0005625px;
+    margin-bottom: 1.3125rem;
+}
+
+.galery-title{
+    color: var(--color-font-skill-card-title);
+    margin: 0;
+}
+
+.imgViewContent{
+    display: block;
+    height: 5rem;
 }

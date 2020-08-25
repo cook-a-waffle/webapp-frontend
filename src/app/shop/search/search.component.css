@@ -1,10 +1,16 @@
 .search-input {
+    font-family: SF Pro Display;
+    font-style: normal;
     background: #FAFAFB;
     border: 0.0625rem solid #EFEFF4;
     box-sizing: border-box;
     border-radius: 0.875rem;
     height: 3.4375rem;
     padding-left: 3rem;
+    font-weight: 500;
+    font-size: 0.9375rem;
+    line-height: 1.125rem;
+    letter-spacing: 0.000421875px;
 }
 
 .ico-input {
@@ -12,4 +18,13 @@
     font-size: 1.5625rem;
     margin-left: 1rem;
     margin-top: .5rem;
+}
+
+.ico-right {
+    right: 2.25rem;
+}
+
+.search-input-right {
+    padding-left: 1.25rem;
+    padding-right: 3rem;
 }

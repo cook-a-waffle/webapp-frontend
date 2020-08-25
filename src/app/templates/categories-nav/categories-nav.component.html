@@ -1,17 +1,3 @@
 <div class="categories-nav d-flex flex-row flex-nowrap non-selectable scroll-theme">
-    <span>Some here</span>
-    <span>Some here</span>
-    <span>Some here</span>
-    <span>Some here</span>
-    <span>Some here</span>
-    <span>Some here</span>
-    <span>Some here</span>
-    <span>Some here</span>
-    <span>Some here</span>
-    <span>Some here</span>
-    <span>Some here</span>
-    <span>Some here</span>
-    <span>Some here</span>
-    <span>Some here</span>
-    <span>Some here</span>
+    <span *ngFor="let category of categories">{{category}}</span>
 </div>

@@ -1,8 +1,13 @@
-<div class="card-item-content d-flex flex-column pt-3 align-items-center">
+<div #card (click)="changeStyle()" class="card-item-content d-flex flex-column pt-3 align-items-center">
     <div class="card-item d-flex flex-column justify-content-center text-center">
         <fa-icon [icon]="item.ico"></fa-icon>
     </div>
     <span>{{item.title}}</span>
-    <fa-icon [icon]="faEllipsisV"></fa-icon>
-    <span>{{item.amount}}</span>
+    <div class="circles">
+        <svg width="6" height="20" viewBox="0 0 6 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path #circles fill-rule="evenodd" clip-rule="evenodd" class="dark-svg"
+                d="M3 9C4.65685 9 6 10.3431 6 12C6 13.6569 4.65685 15 3 15C1.34315 15 0 13.6569 0 12C0 10.3431 1.34315 9 3 9ZM3 4C3.82843 4 4.5 4.67157 4.5 5.5C4.5 6.32843 3.82843 7 3 7C2.17157 7 1.5 6.32843 1.5 5.5C1.5 4.67157 2.17157 4 3 4ZM4 1C4 0.447715 3.55228 0 3 0C2.44772 0 2 0.447715 2 1C2 1.55229 2.44772 2 3 2C3.55228 2 4 1.55229 4 1Z"/>
+        </svg>
+    </div>
+    <span class="font-number">{{item.amount}}</span>
 </div>

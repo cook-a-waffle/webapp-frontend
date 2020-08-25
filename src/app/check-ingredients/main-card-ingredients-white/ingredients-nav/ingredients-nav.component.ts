@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-ingredients-nav',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ingredients-nav.component.css']
 })
 export class IngredientsNavComponent implements OnInit {
-
+  @Input() items: Array<number>;
   constructor() { }
 
   ngOnInit(): void {

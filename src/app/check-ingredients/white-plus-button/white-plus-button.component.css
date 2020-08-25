@@ -1,0 +1,28 @@
+.add-button {
+    height: calc(35vh/4);
+    margin: 0 0 0.875rem 0;
+    font-size: 1.25rem;
+    color: var(--color-font-skill-card-title);
+}
+
+.add-button-content {
+    border: solid 0.0625rem var(--color-light-grey);
+    border-radius: 0.625rem;
+    height: 3.4375rem;
+}
+
+.add-button-content:hover {
+    background-color: var(--color-skill-card-active);
+}
+
+.font-button {
+    font-weight: 600;
+    font-size: 0.9375rem;
+    line-height: 1.125rem;
+    letter-spacing: 0.000421875px;
+}
+
+.ico-general {
+    position: absolute;
+    left: 0.625rem;
+}

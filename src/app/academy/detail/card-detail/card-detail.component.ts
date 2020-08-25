@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { faPlay } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -8,6 +8,7 @@ import { faPlay } from '@fortawesome/free-solid-svg-icons';
 })
 export class CardDetailComponent implements OnInit {
   faPlay = faPlay;
+  @Input() item: any;
   constructor() { }
 
   ngOnInit(): void {

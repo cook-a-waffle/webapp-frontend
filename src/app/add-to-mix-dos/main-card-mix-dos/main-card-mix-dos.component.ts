@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { faPlusCircle } from '@fortawesome/free-solid-svg-icons';
 @Component({
   selector: 'app-main-card-mix-dos',
@@ -6,8 +6,11 @@ import { faPlusCircle } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./main-card-mix-dos.component.css']
 })
 export class MainCardMixDosComponent implements OnInit {
-
-  constructor() { }
+  @Input() items: Array<any>;
+  op: number;
+  constructor() {
+    this.op = 2;
+  }
   faPlusCircle = faPlusCircle;
   ngOnInit(): void {
   }

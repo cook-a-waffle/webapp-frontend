@@ -24,25 +24,47 @@
     padding: 0;
     margin: 0;
 }
+
 .card-shop-button {
     padding: 0;
     margin: 0;
 }
+
 .card-shop-title {
     color: var(--color-font-template-title);
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    letter-spacing: 0.00045px;
+}
+
+.card-shop-title h6 {
+    margin: 0;
 }
 
 .card-shop-info {
-    font-size: .8em;
     color: var(--color-font-template-info);
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    letter-spacing: 0.00039375px;
 }
 
-.card-shop-content{
+.card-shop-info p {
+    margin: 0;
+}
+
+.card-shop-content {
     height: 2.8125rem;
-    width: 60%;
+    width: 40%;
 }
 
-.card-shop-price{
+.card-shop-price {
     text-align: center;
-    width: 10%;
+    width: 30%;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.3125rem;
+    letter-spacing: 0.00050625px;
+    color: var(--main-color);
 }

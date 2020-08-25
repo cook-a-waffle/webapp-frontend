@@ -27,6 +27,8 @@
     --color-check-inactive: #B3205F;
     --color-progress-bar: #63A25E;
     --color-light-grey: #ECEDF2;
+    --bg-input: #F0F0F0;
+    --br-card: #ECECEC;
 }
 
 body {
@@ -150,8 +152,9 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    height: 25px;
-    width: 25px;
+    height: 1.0625rem;
+    width: 1.0625rem;
+    border-radius: 0.25rem;
     background-color: var(--color-background);
 }
 
@@ -174,10 +177,10 @@ body {
 }
 
 .container .checkmark:after {
-    left: 9px;
-    top: 2px;
-    width: 9px;
-    height: 15px;
+    left: 5px;
+    top: 3px;
+    width: 6px;
+    height: 9px;
     border: solid var(--general-font);
     border-width: 0 3px 3px 0;
     -webkit-transform: rotate(45deg);

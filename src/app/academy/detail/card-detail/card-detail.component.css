@@ -1,17 +1,19 @@
 .card-body-items {
-    height: 2.8125rem;
     margin-bottom: 10px;
+    width: 100%;
 }
 
 .button-academy-item {
+    color: var(--main-color);
     margin-right: 1.25rem;
     position: relative;
     min-width: 2.8125rem;
     min-height: 2.8125rem;
-    background-color: var(--color-font-skill-card-info);
+    width: 2.8125rem;
+    height: 2.8125rem;
+    background-color: var(--color-skill-card-active);
     border-radius: 0.8125rem;
 }
-
 
 .button-academy-item:hover {
     background-color: var(--main-color);
@@ -21,21 +23,31 @@
 .title {
     padding: 0;
     margin: 0;
-    font-family: SF Pro Display;
-    font-style: normal;
     font-weight: 600;
     font-size: 1.125rem;
     line-height: 1.3125rem;
     letter-spacing: 0.00050625px;
 }
 
-.content-text{
+.content-text {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
-.icon-play{
+.icon-play {
     font-size: 14px;
-    color: var(--main-color);
+}
+
+.subtext {
+    margin: 0;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    letter-spacing: 0.00039375px;
+    color: var(--color-font-template-info);
+}
+
+.container-items {
+    width: 70%;
 }

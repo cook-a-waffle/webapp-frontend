@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-categories-nav',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./categories-nav.component.css']
 })
 export class CategoriesNavComponent implements OnInit {
-
+  @Input() categories: Array<string>;
   constructor() { }
 
   ngOnInit(): void {

@@ -1,0 +1,9 @@
+<div class="main-container">
+    <svg (click)="circleProgress(100)" class="progress-ring" height="55" width="55" stroke="white">
+        <circle class="progress-ring__bg" fill="transparent" r="25.5" cx="27.5" cy="27.5" />
+        <circle #circle class="progress-ring__circle" fill="transparent" r="25.5" cx="27.5" cy="27.5" />
+    </svg>
+    <span class="play-container d-flex flex-column justify-content-center align-items-center">
+        <fa-icon [icon]="faPlay" class="ico-white play"></fa-icon>
+    </span>
+</div>

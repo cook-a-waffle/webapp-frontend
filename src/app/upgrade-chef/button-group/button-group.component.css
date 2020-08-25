@@ -1,7 +1,7 @@
 .info-text {
     font-family: SF Pro Display;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 0.8125rem;
     line-height: 1rem;
     letter-spacing: 0.000365625px;
@@ -11,7 +11,7 @@
 }
 
 .ico-input {
-    font-size: 2.1875rem;
+    font-size: 1.875rem;
 }
 
 .mark-text {
@@ -21,11 +21,10 @@
 
 .btn-upgrade {
     background-color: var(--color-font-main);
-    border-radius: 10px;
+    border-radius: 0.625rem;
     width: 9.375rem;
     height: 3.4375rem;
     text-align: center;
-    font-family: SF Pro Display;
     font-style: normal;
     font-weight: 600;
     font-size: 0.9375rem;
@@ -44,4 +43,8 @@
 
 .buttons-container {
     margin-top: 2.1875rem;
+}
+
+.button-group {
+    margin-top: 4.625rem;
 }

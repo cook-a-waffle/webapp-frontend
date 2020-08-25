@@ -1,11 +1,11 @@
 <div class="card-static-dark">
     <div class="card-static-body scroll-theme">
-        <div class="d-flex flex-row">
+        <div class="head-card d-flex flex-row">
             <div class="col-2 m-0 p-0">
                 <fa-icon [icon]="faPlusCircle" class="ico-white plus-ico m-auto p-0"></fa-icon>
             </div>
             <div class="col-10 d-flex flex-column justify-content-center p-0 m-0">
-                <h6>Anniversary gift</h6>
+                <h6 class="font-title">Anniversary gift</h6>
                 <span class="level-text">Free tier</span>
             </div>
         </div>
@@ -16,6 +16,8 @@
                 a sales professional, my profile requires a lot of traveling.
             </p>
         </div>
+        <div class="choose-recipe d-flex flex-row justify-content-center">
+            <app-bottom-button [title]="'Cook it!!'" [classCustome]="'hide'" [modePosition]="'mod-dark'" [path]="'/saved'" [shadow]="'shadow-dark'"></app-bottom-button>
+        </div>
     </div>
-    <app-cook-it-bottom-button></app-cook-it-bottom-button>
 </div>

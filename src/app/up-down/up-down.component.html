@@ -1,0 +1,8 @@
+<div class="up-down-conteiner d-flex flex-row justify-content-center">
+    <span #up>
+        <fa-icon [icon]="faCaretUp" class="ico-black pr-2"></fa-icon>
+    </span>
+    <span #down>
+        <fa-icon (click)="close(true)" [icon]="faCaretDown" class="ico-black pr-2"></fa-icon>
+    </span>
+</div>

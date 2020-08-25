@@ -1,8 +1,39 @@
-.bottom-button {
-    background-color: var(--color-background-main-card);
-    position: fixed;
-    height: 7vh;
-    width: 100vw;
-    bottom: 0;
-    z-index: 10;
+.progress-ring__bg {
+    stroke: var(--general-font);
+    stroke-width: 3px;
+}
+
+.progress-ring__circle {
+    stroke: var(--general-font);
+    stroke-width: 3px;
+    transition: stroke-dashoffset 10s;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+}
+
+.my-class {
+    stroke: var(--color-check-active);
+}
+
+.play {
+    font-size: 17px;
+    padding: 3px 0 0 3px;
+}
+
+.main-container {
+    display: contents;
+}
+
+.play-container {
+    width: 3.4375rem;
+    height: 3.4375rem;
+    position: absolute;
+    border-radius: 50%;
+    background-color: var(--color-background-badge-dinner);
+    ;
+}
+
+.progress-ring {
+    position: absolute;
+    z-index: 5;
 }

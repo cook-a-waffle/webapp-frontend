@@ -5,21 +5,23 @@
                 <div class="d-flex flex-column">
                     <div class="form-group col-12">
                         <label for="title" class="fa-pull-right">Alexa skill</label>
-                        <input type="text" name="title" id="title" class="form-control font-weight-bold">
+                        <input type="text" name="title" id="title" class="form-control" placeholder="Title">
                     </div>
 
                     <div class="form-group col-12">
                         <label for="about">Tell us about your creation</label>
-                        <textarea name="about" id="about" rows="2" class="form-control" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque gravida maximus odio dictum rhoncus. Duis at turpis aliquet, pellentesque ipsum ut, consequat ipsum."></textarea>
+                        <textarea name="about" id="about" rows="2" class="form-control font-general-input"
+                            placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque gravida maximus odio dictum rhoncus. Duis at turpis aliquet, pellentesque ipsum ut, consequat ipsum."></textarea>
                     </div>
 
                     <div class="form-group col-12">
                         <label for="credential">Who will have access</label>
-                        <textarea name="credential" id="credential" rows="2" class="form-control" placeholder="Delimit email addresses by semicolon or line by line."></textarea>
+                        <textarea name="credential" id="credential" rows="2" class="form-control font-general-input"
+                            placeholder="Delimit email addresses by semicolon or line by line."></textarea>
                     </div>
 
-                    <div class="form-group col-12">
-                        <label class="container  d-flex flex-row justify-content-center" for="term">
+                    <div class="form-group check-container">
+                        <label class="container label-check d-flex flex-row justify-content-center" for="term">
                             I accept <b>Terms and Conditions</b>
                             <input id="term" name="term" type="checkbox" checked>
                             <span class="checkmark"></span>

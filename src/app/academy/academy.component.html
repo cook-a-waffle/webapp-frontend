@@ -3,14 +3,14 @@
     <div class="body-academy">
         <h1 class="academy-title">What would you like to learn today?</h1>
         <div>
-            <app-search></app-search>
+            <app-search [icoRight]="'ico-right'" [inputRight]="'search-input-right'"></app-search>
         </div>
         <div class="body-content-academy scroll-theme">
             <div class="academy-card-container">
-                <app-item-card-academy></app-item-card-academy>
+                <app-item-card-academy [items]="popular"></app-item-card-academy>
             </div>
             <div class="academy-card-container">
-                <app-item-card-academy></app-item-card-academy>
+                <app-item-card-academy [items]="forYou"></app-item-card-academy>
             </div>
         </div>
     </div>

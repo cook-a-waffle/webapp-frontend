@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main-card-mix.component.css']
 })
 export class MainCardMixComponent implements OnInit {
-
-  constructor() { }
+  op: number;
+  constructor() {
+    this.op = 1;
+  }
 
   ngOnInit(): void {
   }

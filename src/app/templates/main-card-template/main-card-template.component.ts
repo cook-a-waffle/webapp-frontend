@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-main-card-template',
@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main-card-template.component.css']
 })
 export class MainCardTemplateComponent implements OnInit {
-
+  @Input() items: Array<any>;
+  @Input() categories: Array<string>;
   constructor() { }
 
   ngOnInit(): void {

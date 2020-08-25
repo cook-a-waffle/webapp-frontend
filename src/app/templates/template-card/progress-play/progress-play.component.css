@@ -1,0 +1,50 @@
+.progress-ring__bg {
+    stroke: var(--general-font);
+    stroke-width: 3px;
+}
+
+.progress-ring__circle {
+    stroke: var(--general-font);
+    stroke-width: 3px;
+    transition: stroke-dashoffset 10s;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+}
+
+.my-class {
+    stroke: var(--color-check-active);
+}
+
+.play {
+    font-size: 17px;
+    padding: 3px 0 0 3px;
+}
+
+.main-container {
+    margin: 0;
+    padding: 0;
+}
+
+.play-container {
+    width: 3.4375rem;
+    height: 3.4375rem;
+    border-radius: 50%;
+    background-color: var(--color-background-badge-dinner);
+}
+
+.progress-ring {
+    position: absolute;
+    z-index: 5;
+}
+
+.overTape {
+    width: 3.4375rem;
+    height: 3.4375rem;
+    position: absolute;
+    z-index: 7;
+    top: 0;
+}
+
+.destroyOverTape{
+    display: none;
+}

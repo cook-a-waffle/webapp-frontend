@@ -1,6 +1,11 @@
 <div class="upgrade-body d-flex flex-column">
+    <div class="d-flex flex-row justify-content-end">
+        <div class="close-round d-flex flex-column justify-content-center text-center fa-pull-left" (click)="goBack()">
+            <fa-icon class="close-ico" [icon]="faTimes"></fa-icon>
+        </div>
+    </div>
     <div class="head-text d-flex flex-column justify-content-center align-items-center">
-        <h1>
+        <h1 class="text-center">
             Want more honey on that #<span class="link">Waflie</span>?
         </h1>
     </div>

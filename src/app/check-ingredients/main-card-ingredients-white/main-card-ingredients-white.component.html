@@ -1,14 +1,8 @@
 <div class="card-static-white">
     <div class="card-static-body scroll-theme">
         <h5 class="font-title">Ingredients</h5>
-        <app-ingredients-nav></app-ingredients-nav>
-        <div class="add-ingredient d-flex flex-row justify-content-center align-content-center non-selectable">
-            <div
-                class="add-ingedients-content d-flex justify-content-center align-items-center col-12 col-sm-12 col-md-6">
-                <fa-icon [icon]="faPlusCircle" class="ico-general col-2"></fa-icon>
-                <span class="font-button">Add ingredients</span>
-            </div>
-        </div>
+        <app-ingredients-nav [items]="items"></app-ingredients-nav>
+        <app-white-plus-button [title]="'Add ingredients'"></app-white-plus-button>
         <div class="choose-recipe d-flex flex-row justify-content-center">
             <app-bottom-button [title]="'Choose this recipe'" [classCustome]="'hide'" [modePosition]="'mod'"
                 [path]="'/addMix'"></app-bottom-button>

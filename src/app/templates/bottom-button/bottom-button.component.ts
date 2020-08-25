@@ -11,6 +11,7 @@ export class BottomButtonComponent implements OnInit {
   @Input() classCustome: string;
   @Input() modePosition: string;
   @Input() path: string;
+  @Input() shadow: string;
   constructor() { }
   ngOnInit(): void {
   }

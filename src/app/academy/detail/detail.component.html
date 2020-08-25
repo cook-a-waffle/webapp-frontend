@@ -17,11 +17,9 @@
                 <span class="progress-text">2 of 14 lessons</span>
             </div>
             <div class="content-cards-academy scroll-theme">
-                <app-card-detail></app-card-detail>
-                <app-card-detail></app-card-detail>
-                <app-card-detail></app-card-detail>
-                <app-card-detail></app-card-detail>
-                <app-card-detail></app-card-detail>
+                <span *ngFor="let item of items">
+                    <app-card-detail [item]="item"></app-card-detail>
+                </span>
             </div>
         </div>
     </div>

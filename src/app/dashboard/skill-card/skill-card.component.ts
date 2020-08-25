@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 @Component({
   selector: 'app-skill-card',
@@ -7,6 +7,8 @@ import { faHeart } from '@fortawesome/free-solid-svg-icons';
 })
 export class SkillCardComponent implements OnInit {
   faHeart = faHeart;
+  @Input() item: any;
+
   constructor() { }
 
   ngOnInit(): void {

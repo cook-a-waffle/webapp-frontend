@@ -4,8 +4,8 @@
     height: 0;
     width: 100vw;
     background-color: var(--color-background-main-card);
-    border-radius: 35px 35px 0 0;
-    padding: 30px 15px 0 15px;
+    border-radius: 2.1875rem 2.1875rem 0 0;
+    padding: 1.875rem 0.9375rem 0 0.9375rem;
     animation-name: sweepup;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
@@ -23,5 +23,5 @@
 .card-static-body {
     overflow: auto;
     margin: 0;
-    height: 90%;
+    height: 88%;
 }

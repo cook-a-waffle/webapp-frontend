@@ -1,0 +1,10 @@
+.container {
+    height: 20vh;
+}
+
+.font-title {
+    font-weight: 700;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    letter-spacing: 0.00084375px;
+}
